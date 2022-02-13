@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Exemplo HTML</title>
+	<link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+	<nav id="menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="cadastro.html">Cadastro</a></li>
+		</ul>
+	</nav>
+
+	<div align="center">
+		<table border="1" class="table_round">
+			<thead>
+				<tr>
+					<th>#id</th>
+					<th>Nome</th>
+					<th>Data de Nascimento</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>FULANO</td>
+					<td>22/09/1982</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Beltrano</td>
+					<td>12/04/1973</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Cicrano</td>
+					<td>18/09/1992</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<br>
+	<br>
+
+	<div align="center">
+		<form action="www.google.com" method="get">
+			<fieldset>
+				<legend>Cadastro de Pessoas</legend>
+				<table>
+					<tr>
+						<td>
+							<input class="input-data" type="number" min="0" step="1" name="id" id="id"
+								placeholder="#ID">
+						</td>
+					</tr>
+					<tr>
+
+						<td>
+							<input class="input-data" type="text" name="nome" id="nome" placeholder="Nome">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input class="input-data" type="date" name="dataNasc" id="dataNasc"
+								placeholder="Data de Nascimento">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="submit" name="Enviar" id="">
+						</td>
+					</tr>
+
+				</table>
+			</fieldset>
+
+		</form>
+
+	</div>
+</body>
+
+</html>

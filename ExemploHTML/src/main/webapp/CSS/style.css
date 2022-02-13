@@ -1,0 +1,73 @@
+body{
+    background-color: brown;
+    color: white;
+    margin: 0;
+padding: 0;
+}
+
+.title{
+    text-shadow: 5px 5px 10px violet;
+    text-align: center;
+    font-size: 60px;
+}
+
+.table_round{
+    border: none;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+input[type=submit]{
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px solid 1px green;
+    display: block;
+    margin: 0 auto;
+}
+
+.input-data{
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px black;
+}
+
+form{
+    width: 400px;
+    padding: 10px;
+    box-shadow: 1px 4px 10px black;
+}
+
+legend{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+#menu{
+    background-color: blueviolet;
+    width: 100vw;
+    height: 50px;
+    overflow: auto;
+}
+
+#menu ul{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    list-style: none;
+}
+
+#menu ul li a{
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: coral;
+    color: white;
+}
+
+#menu ul li a:hover{
+    background-color: violet;
+}
